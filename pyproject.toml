@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-dataset-redactor"
+version = "0.1.0"
+description = "A privacy-focused CLI tool that redacts PII from files and logs locally for safe AI training and compliance."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "pandas", "spacy", "tqdm"]
+dependencies = ["click", "pandas", "spacy", "tqdm"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-dataset-redactor"
